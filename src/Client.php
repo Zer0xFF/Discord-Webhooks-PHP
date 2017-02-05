@@ -46,7 +46,7 @@ class Client
      * @param string $name The name that should be shown as the user sending the message
      */
      
-    protected function name($param) {
+    public function name($param) {
         $this->name = $name;
     }
     
