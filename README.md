@@ -25,7 +25,7 @@ This wrapper is installed by using [Composer](https://getcomposer.org). You also
 ### Example
 ```php
 <?php
-    include __DIR__.'/vendor/autoload.php';`
+    include __DIR__.'/vendor/autoload.php';
 
     use \DiscordWebhooks\Client as DiscordWebhook;
     
