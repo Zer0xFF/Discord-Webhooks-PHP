@@ -98,7 +98,7 @@ class Client
         $output = json_decode($output, true);
 
         if (curl_getinfo($curl, CURLINFO_HTTP_CODE) != 204) {
-            throw new Exception($output['message']);
+            throw new \Exception($output['message']);
         }
 
         curl_close($curl);
